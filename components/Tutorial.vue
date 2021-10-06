@@ -4,43 +4,56 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
     <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
       <a class="flex justify-center pt-8 sm:pt-0" href="https://nuxtjs.org" target="_blank">
-        <svg width="218" height="45" viewBox="0 0 159 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M55.5017 6.81866H60.1727L70.0719 22.9912V6.81866H74.3837V29.7345H69.7446L59.8135 13.5955V29.7345H55.5017V6.81866Z" fill="#003543" /> <path d="M93.657 29.7344H89.6389V27.1747C88.7241 28.9761 86.8628 29.9904 84.5113 29.9904C80.7869 29.9904 78.3684 27.3059 78.3684 23.4423V13.2339H82.3865V22.5976C82.3865 24.8566 83.7594 26.4276 85.8171 26.4276C88.0712 26.4276 89.6389 24.6598 89.6389 22.2377V13.2339H93.657V29.7344Z" fill="#003543" /> <path d="M107.64 29.7344L103.784 24.2342L99.9291 29.7344H95.6492L101.596 21.1242L96.1074 13.2339H100.485L103.784 17.9821L107.051 13.2339H111.461L105.94 21.1242L111.886 29.7344H107.64Z" fill="#003543" /> <path d="M120.053 8.25848V13.2339H124.627V16.6063H120.053V24.7974C120.053 25.0725 120.162 25.3363 120.356 25.531C120.55 25.7257 120.813 25.8353 121.087 25.8357H124.627V29.728H121.98C118.386 29.728 116.035 27.6323 116.035 23.9687V16.6095H112.801V13.2339H114.83C115.776 13.2339 116.327 12.6692 116.327 11.7349V8.25848H120.053Z" fill="#003543" /> <path d="M134.756 24.5446V6.81866H139.066V23.1864C139.066 27.6067 136.943 29.7345 133.349 29.7345H128.332V25.8421H133.461C133.804 25.8421 134.134 25.7054 134.377 25.4621C134.619 25.2188 134.756 24.8888 134.756 24.5446Z" fill="#003543" /> <path d="M141.649 22.0409H145.799C146.029 24.6006 147.728 26.2308 150.472 26.2308C152.923 26.2308 154.623 25.2501 154.623 23.2199C154.623 18.3085 142.331 21.7129 142.331 12.9395C142.334 9.17515 145.568 6.55945 150.215 6.55945C155.05 6.55945 158.317 9.34153 158.516 13.6306H154.388C154.193 11.6341 152.632 10.2918 150.207 10.2918C147.953 10.2918 146.548 11.3397 146.548 12.9427C146.548 18.0173 159 14.2226 159 23.1576C159 27.4131 155.504 30 150.474 30C145.279 30 141.882 26.8563 141.654 22.0441" fill="#003543" /> <path d="M24.7203 29.704H41.1008C41.6211 29.7041 42.1322 29.5669 42.5828 29.3061C43.0334 29.0454 43.4075 28.6704 43.6675 28.2188C43.9275 27.7672 44.0643 27.2549 44.0641 26.7335C44.0639 26.2121 43.9266 25.6999 43.6662 25.2485L32.6655 6.15312C32.4055 5.70162 32.0315 5.32667 31.581 5.06598C31.1305 4.8053 30.6195 4.66805 30.0994 4.66805C29.5792 4.66805 29.0682 4.8053 28.6177 5.06598C28.1672 5.32667 27.7932 5.70162 27.5332 6.15312L24.7203 11.039L19.2208 1.48485C18.9606 1.03338 18.5864 0.658493 18.1358 0.397853C17.6852 0.137213 17.1741 0 16.6538 0C16.1336 0 15.6225 0.137213 15.1719 0.397853C14.7213 0.658493 14.3471 1.03338 14.0868 1.48485L0.397874 25.2485C0.137452 25.6999 0.000226653 26.2121 2.8053e-07 26.7335C-0.000226092 27.2549 0.136554 27.7672 0.396584 28.2188C0.656614 28.6704 1.03072 29.0454 1.48129 29.3061C1.93185 29.5669 2.44298 29.7041 2.96326 29.704H13.2456C17.3195 29.704 20.3239 27.9106 22.3912 24.4118L27.4102 15.7008L30.0986 11.039L38.1667 25.0422H27.4102L24.7203 29.704ZM13.0779 25.0374L5.9022 25.0358L16.6586 6.36589L22.0257 15.7008L18.4322 21.9401C17.0593 24.2103 15.4996 25.0374 13.0779 25.0374Z" fill="#00DC82" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 160 168.21" class="NuxtLogo absolute transition-all duration-1000 cursor-pointer logo-center z-20" data-v-5064171b=""><defs data-v-5064171b=""><style data-v-5064171b="">
+          .cls-1 {
+            fill: #8e8e8e;
+          }
+          .cls-2 {
+            fill: #8db22f;
+          }
+          .cls-3 {
+            fill: #6e9c2e;
+          }
+          .cls-4 {
+            fill: #a0c749;
+          }
+          .cls-5 {
+            fill: #60822d;
+          }
+          .cls-6 {
+            fill: #7d80bd;
+          }
+          .cls-7 {
+            fill: #5e60a9;
+          }
+          .cls-8 {
+            fill: #a5a0cf;
+          }
+          .cls-9 {
+            fill: #5957a2;
+          }
+          .cls-10 {
+            fill: #e89921;
+          }
+          .cls-11 {
+            fill: #e4801d;
+          }
+          .cls-12 {
+            fill: #eba83b;
+          }
+          .cls-13 {
+            fill: #b76d1c;
+          }
+        </style></defs> <g id="Layer_2" data-name="Layer 2" data-v-5064171b=""><g id="Layer_1-2" data-name="Layer 1" data-v-5064171b=""><g id="SharpArchiveLogo" data-v-5064171b=""><g id="name" data-v-5064171b=""><path id="Path_2103" data-name="Path 2103" d="M21.88,124.15c-1.12-1.86-4.18-3.62-7.7-3.62-4.53,0-6.71,1.9-6.71,4.32,0,2.83,3.32,3.62,7.23,4.08,6.76.84,13.06,2.6,13.06,10.34,0,7.23-6.4,10.34-13.63,10.34-6.62,0-11.72-2-14.13-8L5.1,139c1.44,3.57,5.19,5.15,9.12,5.15s7.46-1.33,7.46-4.87c0-3.06-3.2-4.32-7.5-4.77-6.62-.79-12.74-2.55-12.74-9.83C1.44,118,8,115.25,14,115.2c5,0,10.29,1.44,12.74,6.45Z" class="cls-1" data-v-5064171b=""></path> <path id="Path_2104" data-name="Path 2104" d="M54.58,148.81V135.69H38.64v13.12H32.53V116.36h6.11V130H54.58V116.36h6.07v32.45Z" class="cls-1" data-v-5064171b=""></path> <path id="Path_2105" data-name="Path 2105" d="M89.41,142.64h-17l-2.78,6.12H63.05l14.54-32.44h6.67l14.55,32.44H92.14Zm-8.48-19.51-6,13.81H87Z" class="cls-1" data-v-5064171b=""></path> <path id="Path_2106" data-name="Path 2106" d="M130.31,148.76H123l-9.47-10.85h-5.88v10.85h-6.11v-32.5c5.14,0,10.28,0,15.43,0,7.64,0,11.67,5.15,11.67,10.75,0,4.45-2,8.95-8.2,10.2l9.82,11.08ZM107.71,122V132.4H117c3.89,0,5.55-2.6,5.55-5.19S120.86,122,117,122Z" class="cls-1" data-v-5064171b=""></path> <path id="Path_2107" data-name="Path 2107" d="M148.09,139.21h-9.17v9.55h-6.11V116.31c5.1,0,10.19,0,15.29,0,15.84,0,15.89,23,0,23m-9.17-5.61h9.17c7.83,0,7.78-11.5,0-11.5h-9.17Z" class="cls-1" data-v-5064171b=""></path> <path id="Path_2108" data-name="Path 2108" d="M10.47,168.07l-1.28-2.86H2.24L1,168.07H0l5.22-11.64h1l5.23,11.64Zm-1.63-3.7-3.12-7.09-3.13,7.09Z" class="cls-1" data-v-5064171b=""></path> <path id="Path_2109" data-name="Path 2109" d="M35.86,168.07H34.68l-4-4.41H27.48v4.41h-.9V156.43H31.7a3.59,3.59,0,0,1,3.82,3.37,2.17,2.17,0,0,1,0,.26,3.43,3.43,0,0,1-3.29,3.58,4,4,0,0,1-.49,0Zm-8.38-5.26H31.6a2.6,2.6,0,0,0,2.93-2.22,2.63,2.63,0,0,0,0-.56,2.69,2.69,0,0,0-2.6-2.78H27.48Z" class="cls-1" data-v-5064171b=""></path> <path id="Path_2110" data-name="Path 2110" d="M60.61,166.45a5.92,5.92,0,0,1-4.24,1.75,5.63,5.63,0,0,1-6-5.26q0-.31,0-.63a5.7,5.7,0,0,1,5.35-6h.63A6,6,0,0,1,60.61,158l-.61.53a5.15,5.15,0,1,0-3.63,8.81h0A5.21,5.21,0,0,0,60,165.89Z" class="cls-1" data-v-5064171b=""></path> <path id="Path_2111" data-name="Path 2111" d="M84.68,168.07v-5.3H77.26v5.3h-.9V156.42h.9V162h7.42v-5.54h.9v11.65Z" class="cls-1" data-v-5064171b=""></path> <rect id="Rectangle_1622" data-name="Rectangle 1622" x="101.8" y="156.42" width="0.88" height="11.65" class="cls-1" data-v-5064171b=""></rect> <path id="Path_2112" data-name="Path 2112" d="M128.55,156.42l-4.79,11.69h-1L118,156.42h1l4.31,10.65,4.3-10.65Z" class="cls-1" data-v-5064171b=""></path> <path id="Path_2113" data-name="Path 2113" d="M144.62,161.79h6.82v.82h-6.82v4.6H152v.86h-8.23V156.42h8v.85h-7.15Z" class="cls-1" data-v-5064171b=""></path></g> <g id="logo" data-v-5064171b=""><path id="Path_2091" data-name="Path 2091" d="M38,24.34l39.08,9.41L38,73.89l7.28-30.08Z" class="cls-2" data-v-5064171b=""></path> <path id="Path_2092" data-name="Path 2092" d="M72.94,93.76,38,73.89l14.9-15.3Z" class="cls-3" data-v-5064171b=""></path> <path id="Path_2093" data-name="Path 2093" d="M45.25,43.82l31.8-10.07L38,24.34Z" class="cls-4" data-v-5064171b=""></path> <path id="Path_2094" data-name="Path 2094" d="M38,73.89,55.45,63.12l-2.59-4.53Z" class="cls-5" data-v-5064171b=""></path> <path id="Path_2095" data-name="Path 2095" d="M123.44,24.78,95.74,53.92,80.53,0l22.4,21.35Z" class="cls-6" data-v-5064171b=""></path> <path id="Path_2096" data-name="Path 2096" d="M45.84,20.34,80.53,0l5.81,20.56Z" class="cls-7" data-v-5064171b=""></path> <path id="Path_2097" data-name="Path 2097" d="M102.93,21.35,95.75,53.92l27.69-29.14Z" class="cls-8" data-v-5064171b=""></path> <path id="Path_2098" data-name="Path 2098" d="M80.53,0l.58,20.53,5.22,0Z" class="cls-9" data-v-5064171b=""></path> <path id="Path_2099" data-name="Path 2099" d="M80.41,98.6,69.74,59.84l54,14.79L93.93,82.8Z" class="cls-10" data-v-5064171b=""></path> <path id="Path_2100" data-name="Path 2100" d="M124.26,34.41l-.48,40.22L103.18,69Z" class="cls-11" data-v-5064171b=""></path> <path id="Path_2101" data-name="Path 2101" d="M93.93,82.8l-24.18-23L80.42,98.6Z" class="cls-12" data-v-5064171b=""></path> <path id="Path_2102" data-name="Path 2102" d="M123.78,74.63,105.9,64.53,103.18,69Z" class="cls-13" data-v-5064171b=""></path></g></g></g></g></svg>
       </a>
       <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
         <h2 class="text-2xl leading-7 font-semibold">
-          Welcome to SharpArchive
+          Crushing Your Communication Risk
         </h2>
         <p class="mt-3 text-gray-600">
-          We recommend you take a look at the <a href="https://nuxtjs.org" target="_blank" class="text-green-500 hover:underline">Nuxt documentation</a>, whether you are new or have previous experience with the framework.<br>
+          Communication is one of the greatest risks a company faces. Whether these risks are financial or reputational, exposure is growing <br />
+with new technologies. Is your power to mitigate your risks ready to scale with the future?
         </p>
-        <p class="mt-4 pt-4 text-gray-800 border-t border-dashed">
-          To get started, remove <code class="bg-gray-100 text-sm p-1 rounded border">components/Tutorial.vue</code> and start coding in <code class="bg-gray-100 text-sm p-1 rounded border">pages/index.vue</code>. Have fun!
-        </p>
-      </div>
-      <div class="flex justify-center pt-4 space-x-2">
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank"><svg
-          class="w-6 h-6 text-gray-600 hover:text-gray-800"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          aria-hidden="true"
-          role="img"
-          width="32"
-          height="32"
-          preserveAspectRatio="xMidYMid meet"
-          viewBox="0 0 24 24"
-        ><path d="M12 2.247a10 10 0 0 0-3.162 19.487c.5.088.687-.212.687-.475c0-.237-.012-1.025-.012-1.862c-2.513.462-3.163-.613-3.363-1.175a3.636 3.636 0 0 0-1.025-1.413c-.35-.187-.85-.65-.013-.662a2.001 2.001 0 0 1 1.538 1.025a2.137 2.137 0 0 0 2.912.825a2.104 2.104 0 0 1 .638-1.338c-2.225-.25-4.55-1.112-4.55-4.937a3.892 3.892 0 0 1 1.025-2.688a3.594 3.594 0 0 1 .1-2.65s.837-.262 2.75 1.025a9.427 9.427 0 0 1 5 0c1.912-1.3 2.75-1.025 2.75-1.025a3.593 3.593 0 0 1 .1 2.65a3.869 3.869 0 0 1 1.025 2.688c0 3.837-2.338 4.687-4.563 4.937a2.368 2.368 0 0 1 .675 1.85c0 1.338-.012 2.413-.012 2.75c0 .263.187.575.687.475A10.005 10.005 0 0 0 12 2.247z" fill="currentColor" /></svg></a>
-        <a href="https://twitter.com/nuxt_js" target="_blank"><svg
-          class="w-6 h-6 text-gray-600 hover:text-gray-800"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          aria-hidden="true"
-          role="img"
-          width="32"
-          height="32"
-          preserveAspectRatio="xMidYMid meet"
-          viewBox="0 0 24 24"
-        ><path d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23z" fill="currentColor" /></svg></a>
-      </div>
     </div>
   </div>
 </template>
