@@ -1,0 +1,31 @@
+# Deploy to aws
+name: Deploy to AWS
+
+env:
+  APP_NAME: sharparchive
+  AWS_REGION: us-east-2
+  AWS_PLATFORM: Docker
+  PIPELINE_ID: ${GITHUB_RUN_ID}-${GITHUB_RUN_NUMBER}
+
+# Controls when the action will run.
+on:
+  # Triggers the workflow on push or pull request events but only for the dev branch
+  push:
+    branches: [main]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: docker://ghcr.io/kciter/aws-ecr-action:latest
+        with:
+          access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          account_id: ${{ secrets.AWS_ACCOUNT_ID }}
+          repo: ${{env.APP_NAME}}
+          region: ${{env.AWS_REGION}}
+          tags: latest,${{ github.sha }}
+          image_scanning_configuration: true
+
