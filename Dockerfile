@@ -10,6 +10,8 @@ RUN yarn install \
   --non-interactive \
   --production=false
 
+COPY .env.production .env
+
 RUN yarn build
 
 RUN rm -rf node_modules && \
@@ -24,11 +26,12 @@ FROM node:lts
 WORKDIR /app
 
 COPY --from=builder /app/.nuxt .nuxt
+COPY --from=builder /app/.env .env
 COPY --from=builder /app/static static
+COPY --from=builder /app/nuxt.config.js nuxt.config.js
 COPY --from=builder /app/node_modules node_modules
-COPY --from=builder /app/package.json package.json
 
 ENV HOST 0.0.0.0
 EXPOSE 3000
 
-CMD [ "yarn", "start" ]
+CMD [ "node_modules/.bin/nuxt", "start" ]
